@@ -2,9 +2,9 @@
   "name": "examples",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
-    "dev": "pnpm esbuild index.js --serve=3000 --servedir=./ --bundle"
+    "dev": "pnpm esbuild main.js --serve=3000 --servedir=./ --bundle"
   },
   "keywords": [],
   "author": "",
