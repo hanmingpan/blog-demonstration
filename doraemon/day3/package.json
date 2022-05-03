@@ -1,0 +1,17 @@
+{
+  "name": "doraemon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "pnpm esbuild src/index.js --bundle --outdir=dist --format=esm --watch"
+  },
+  "keywords": [
+    "util"
+  ],
+  "author": "page",
+  "license": "ISC",
+  "devDependencies": {
+    "esbuild": "^0.14.38"
+  }
+}
